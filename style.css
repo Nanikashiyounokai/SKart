@@ -1,0 +1,281 @@
+html, body {
+
+}
+
+html {
+  background: #eee;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: white;
+}
+.SKart_content{
+  position: relative;
+  margin: 10vw 0;
+}
+
+.SKart_content:before{
+  position: absolute;
+  content: '';
+  left: 34vw;
+  width: 45vw;
+  top: 3vw;
+  border: 0.3vw solid black;
+}
+.SKart_content_first:after{
+  position: absolute;
+  content: '';
+  left: 32vw;
+  width: 65vw;
+  top: 58vw;
+  border: 0.3vw solid black;
+}
+.SKart_content_second:after{
+  position: absolute;
+  content: '';
+  left: 32vw;
+  width: 65vw;
+  top: 54vw;
+  border: 0.3vw solid black;
+}
+.SKart_content_third:after{
+  position: absolute;
+  content: '';
+  left: 32vw;
+  width: 65vw;
+  top: 61vw;
+  border: 0.3vw solid black;
+}
+.SKart_content_fourth:after{
+  position: absolute;
+  content: '';
+  left: 32vw;
+  width: 65vw;
+  top: 61vw;
+  border: 0.3vw solid black;
+}
+.content_titele{
+  position: relative;
+  padding: 1rem 3rem 1rem;
+  background: #bababa;
+  font-size: 3vw;
+  width: 18%;
+  text-align: center;
+  margin: 0 0 0 10vw;
+}
+.content_titele:before {
+  position: absolute;
+  top: -2vw;
+  left: -2vw;
+  width: 100%;
+  height: 100%;
+  content: '';
+  border: 4px solid #000;
+}
+
+/*firstview*/
+
+.firstview_font{
+  font-size: 25vw;
+  font-family: serif;
+  width: 80%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: firview-anim 3s forwards linear;
+}
+
+.firstview {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+}
+
+
+@keyframes firview-anim {
+ 0%{
+   width: 0%;
+   }
+100%{
+   width: 100%;
+   }
+}
+
+/*firstview*/
+
+/*introdaction*/
+
+.introdaction{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 3vw;
+
+}
+
+/*introdaction*/
+
+/*navigation*/
+
+.navigation{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navigation_side{
+  display: flex;
+  justify-content: center;
+}
+
+#nav_button{
+  border: solid 0.1vw;
+  padding: 1.5vw;
+  font-size: 2vw;
+  margin: 2vw;
+  width: 18vw;
+  text-align: center;
+}
+/*navigation*/
+
+/*twitter*/
+
+.SKart_twitter{
+  max-width: 70%;
+  border: 0.1vw solid #333;
+  padding: 10px;
+  margin: 2vw auto;
+}
+
+/*twitter*/
+
+/*freeplay*/
+.swiper{
+  height: 45vw;
+}
+.swiper-button-next,.swiper-button-prev{
+  color: black!important;
+}
+.freeplay_content{
+  width: 80%;
+  display: flex;
+  margin: 5vw auto;
+}
+
+.freeplay_content_img{
+  width: 50%;
+  text-align: center;
+}
+
+.freeplay_content_img img{
+  width: 33vw;
+}
+
+.freeplay_content_text{
+  width: 50%;
+}
+
+.freeplay_content_text_title{
+  text-align: center;
+  font-size: 2.5vw;
+  margin: 1vw 0;
+}
+
+.freeplay_content_text_detail{
+  font-size: 1.5vw;
+}
+
+.freeplay_content_button{
+  width: 20vw;
+  margin: 0 auto;
+  text-align: center;
+  background-color: gray;
+  font-size: 2vw;
+  padding: 1vw;
+  color: white;
+  border-radius: 0.5vw;
+}
+
+/*freeplay*/
+
+/*application*/
+.application{
+  width: 90%;
+  margin: 2vw auto;
+  display: flex;
+}
+
+.application_content{
+  width: 40%;
+  margin: 0 5vw;
+}
+
+.application_content_img{
+  height: 33vw;
+}
+
+.application_content_img img{
+  width: 33vw;
+}
+
+.application_content_title{
+  text-align: center;
+  font-size: 3vw;
+}
+
+.application_content_coment{
+  margin: 0 auto;
+  width: 80%;
+}
+/*application*/
+
+/*movie*/
+.movie { /* リスト全体のスタイル */
+  width: 84%;
+  margin: 2vw auto;
+  display: flex;
+  overflow-x: scroll;
+  border: solid 1px #696969;
+}
+
+.movie_content{
+  width: 30%;
+  flex-shrink: 0;
+}
+
+.movie_content_img{
+  text-align: center;
+}
+
+.movie_content_img img{
+  width: 80%;
+}
+
+.movie_content p{
+  width: 80%;
+  margin: 2vw auto;
+  text-align: center;
+  font-size: 1.8vw;
+}
+
+.scroll_content::-webkit-scrollbar {
+  height: 12px; /* スクロールバーの高さ */
+}
+
+/*@media screen and (min-width: 450px) {
+  .movie_content{
+    width: 45%;
+  }
+}*/
+ 
+/*movie*/
+
+
+
+
+
+
+
+
