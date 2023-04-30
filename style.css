@@ -25,38 +25,7 @@ body {
   top: 3vw;
   border: 0.3vw solid black;
 }
-.SKart_content_first:after{
-  position: absolute;
-  content: '';
-  left: 32vw;
-  width: 65vw;
-  top: 58vw;
-  border: 0.3vw solid black;
-}
-.SKart_content_second:after{
-  position: absolute;
-  content: '';
-  left: 32vw;
-  width: 65vw;
-  top: 54vw;
-  border: 0.3vw solid black;
-}
-.SKart_content_third:after{
-  position: absolute;
-  content: '';
-  left: 32vw;
-  width: 65vw;
-  top: 61vw;
-  border: 0.3vw solid black;
-}
-.SKart_content_fourth:after{
-  position: absolute;
-  content: '';
-  left: 32vw;
-  width: 65vw;
-  top: 61vw;
-  border: 0.3vw solid black;
-}
+
 .content_titele{
   position: relative;
   padding: 1rem 3rem 1rem;
