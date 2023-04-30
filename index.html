@@ -1,0 +1,204 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SKart</title>
+  <meta name="description" content="ディスクリプション" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="タイトル" />
+  <meta property="og:image" content="/img/icon.png" />
+  <meta property="og:url" content="http://example.net/" />
+  <meta property="og:site_name" content="サイト名" />
+  <meta property="og:description" content="" />
+  <meta charset="utf-8">
+  <meta name="robots" content="noarchive">
+
+  <!-- <link rel="shortcut icon" href="/img/favicon.ico">  -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="sample.js"></script>
+
+</head>
+<body>
+ <div class="firstview">
+  <div class="firstview_font">SKart</div>
+</div>
+
+<div class="introdaction">
+  <p>理系大学院生たちの暇つぶし</br>意味のない動画を作ったり、役に立たないアプリを作ったりしています。</p>
+
+</div>
+
+<section class="navigation">
+  <div class="navigation_side">
+    <div class="nav_twitter" id="nav_button">
+      Twitter
+    </div>
+    <div class="nav_freeplay" id="nav_button">
+      自遊研究
+    </div>
+    <div class="nav_application" id="nav_button">
+      アプリ製作
+    </div>
+  </div>
+
+  <div class="navigation_side">
+    <div class="nav_movie" id="nav_button">
+      動画
+    </div>
+    <div class="nav_textcontent" id="nav_button">
+      テキストコンテンツ
+    </div>
+  </div>  
+
+</section >
+
+<section class="SKart_content SKart_content_first">
+  <div class="content_titele">Twitter</div>
+  <div class="SKart_twitter">
+    <a class="twitter-timeline" data-height="500" href="https://twitter.com/SKart_SKart?ref_src=twsrc%5Etfw">Tweets by SKart_SKart</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</section>
+
+<section class="SKart_content SKart_content_second">
+  <div class="content_titele">自遊研究</div>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="freeplay_content">
+          <div class="freeplay_content_img">
+            <img src="img/Fukada.jpeg">
+          </div>
+          <div class="freeplay_content_text">
+            <p class="freeplay_content_text_title">深田えいみ<br>「デート代は男性に出してほしい」</p>
+            <p  class="freeplay_content_text_detail">深田えいみの「女性はデータの準備に多くの出費があるため、デート代は男性に出して欲しい」という旨のツイートに関して、主張の妥当性を定量的に検討してみた。</p>
+
+            <div class="freeplay_content_button">詳しく見る</div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="freeplay_content">
+          <div class="freeplay_content_img">
+            <img src="img/mitoma.jpeg">
+          </div>
+          <div class="freeplay_content_text">
+            <p class="freeplay_content_text_title">三笘の1mmの面積求めてみた</p>
+            <p  class="freeplay_content_text_detail">私はこれが「三笘の 1mm」として話題になったことに疑問を抱いた。なぜならラインアウトの基準は、鉛直上方向から見た際のラインとボールの重なりの有無である。すなわち、評価に用いる値は面積であるため、「1mm」という表現は適切でないと考えられる。そのため、ここでは三笘選手残したボールの鉛直上方向から見た時の面積を求めていく。</p>
+
+            <div class="freeplay_content_button">詳しく見る</div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="freeplay_content">
+          <div class="freeplay_content_img">
+            <img src="img/pika.png">
+          </div>
+          <div class="freeplay_content_text">
+            <p class="freeplay_content_text_title">ピカチュウの10万ボルトは何ボルト？</p>
+            <p class="freeplay_content_text_detail">ピカチュウの10万ボルトによってロケット団が飛ばされるシーンを見て疑問に思った。ロケット団が飛んでいくためには非常に大きいエネルギーが必要である。それがピカチュウの放ったピカチュウの10万ボルトによって引き起こされていると考えると、エネルギーの観点からピカチュウの10万ボルトから実際の電圧を求めることができるのではないかと考えた。</p>
+
+            <div class="freeplay_content_button">詳しく見る</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+<script type="text/javascript">
+  const swiper = new Swiper(".swiper", {
+    loop: true,
+  // ページネーションが必要なら追加
+    pagination: {
+      el: ".swiper-pagination"
+    },
+  // ナビボタンが必要なら追加
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    }
+  });
+</script>
+
+<section class="SKart_content SKart_content_third">
+  <div class="content_titele">アプリ</div>
+  <div class="application">
+    <div class="application_content">
+      <div class="application_content_img">
+        <img src="img/roulette.png">
+      </div>
+      <div class="application_content_text">
+        <p class="application_content_title">偏りルーレット</p>
+        <p class="application_content_coment">表示される見かけ上の確率とは別に、内部で設定される本来の確率によってルーレットが行われます。</p>
+      </div>
+    </div>
+    <div class="application_content">
+      <div class="application_content_img">
+        <img src="img/dontenki.jpg">
+      </div>
+      <div class="application_content_text">
+        <p class="application_content_title">曇天気の子</p>
+        <p class="application_content_coment">観測地点が曇りそうなとき、「ねえ、今から曇るよ」と通知してくれます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="SKart_content SKart_content_fourth">
+  <div class="content_titele">動画</div>
+  <div class="movie">
+    <div class="movie_content">
+      <div class="movie_content_img">
+        <img src="img/gisei.jpeg">
+      </div>
+      <p>正義が犠牲に変わる瞬間</br>【SEKAI NO OWARI】</p>
+    </div>
+    <div class="movie_content">
+      <div class="movie_content_img">
+        <img src="img/zusi.jpeg">
+      </div>
+      <p>回転津市</br>【回転寿司ではない】</p>
+    </div>
+    <div class="movie_content">
+      <div class="movie_content_img">
+        <img src="img/tensegu.jpeg">
+      </div>
+      <p>宙に浮いてる？無重力？</br>不思議な構造・テンセグリティ</p>
+    </div>
+    <div class="movie_content">
+      <div class="movie_content_img">
+        <img src="img/morinonaka.jpeg">
+      </div>
+      <p>物理的に森の中に木を隠してみた</p>
+    </div>
+    <div class="movie_content">
+      <div class="movie_content_img">
+        <img src="img/dokudoku.jpeg">
+      </div>
+      <p>人生で23億回聞くやつ</br>【解放のドラム】</p>
+    </div>
+</div>
+</section>
+
+<section style="height: 300px;"></section>
+
+</body>
+</html>
